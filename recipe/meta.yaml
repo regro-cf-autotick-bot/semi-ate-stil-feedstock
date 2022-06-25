@@ -1,5 +1,5 @@
 {% set name = "semi-ate-stil" %}
-{% set version = "0.2.10" %}
+{% set version = "0.2.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Semi-ATE-STIL-{{ version }}.tar.gz
-  sha256: bbccce2eba671cb88816052837b8aa0f0d58de067a1f6fa796f35c2505129383
+  sha256: 21b1b0da649b8cc16efd96ed2844954e82a6a1983bb2758c4e97063129745100
 
 build:
   noarch: python
